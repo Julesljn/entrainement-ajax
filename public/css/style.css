@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Capriola&family=Nosifer&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Capriola', cursive;
+    background-color: #d7cdcd;
+}
+
+main {
+    background-color: #d7cdcd;
+}
+form {
+    font-family: 'Capriola', cursive;
+}
+
+
+form textarea {
+    font-family: 'Capriola', cursive;
+    font-size: 29px;;
+    font-weight: bold;
+}
+
+.form form {
+    font-family: 'Capriola', cursive;
+
+
+}
+
+.normal {
+    font-family: 'Capriola', sans-serif;
+    width: 70%;
+}
+
+header, footer {
+    height: 7vw;
+    background-color: #021e1a;
+     text-align: center;
+    color: white;
+    font-size: 22px;;
+
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h2, small {
+    padding: 2vw 0;
+    margin: 0;
+    color: white;
+}
+
+h1 {
+    font-size: 24px;;
+    color: #c011a3;
+}
+
+#submit a {
+    text-decoration: none;
+    color: white;
+}
+
+#slogan {
+    background-color: #aa06be;
+}
+
+#nomemployé, #nomProduct, #serviceProduct, #nomCommande {
+    border-radius: 5px;
+    border: 2px solid;
+}
+
+h3 {
+    text-align: center;
+}
+
+#slogan h2 {
+    font-family: 'Capriola', sans-serif;
+    padding: 1vw;
+    text-align: center;
+    margin: 0;
+}
+
+#width {
+    width: auto;
+}
+
+span:after {
+    width: 5vw;
+    height: 5vw;
+    display: inline-block;
+    position: fixed;
+    background-color: #ffbf69;
+    bottom: 5vw;
+    right: 5vw;
+    border-radius: 50%;
+    font-size: 3vw;
+    text-align: center;
+    line-height: 5vw;
+}
+
+select {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+}
+
+#delete {
+    background-color: #da2f2f !important;
+}
+
+h2 {
+    margin: 30px;
+    text-align: center;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 60%;
+    padding: 30px;
+    margin: 20px auto;
+}
+
+#section {
+    flex-basis: 40%;
+    padding: 2vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.message {
+    color: #001aff;
+    text-align: center;
+    font-size: 18px;;
+    font-weight: bold;
+}
+
+#house {
+    width: 3%;
+    position: fixed;
+    left: 0;
+    margin: 50px 20px;
+}
+
+.articles-wrapper {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+
+.article {
+    background-color: #eadcf1;
+    border: 8px solid white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulaire {
+    border: 8px solid white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contentImg {
+    width: 10%;
+
+}
+
+#linkTop {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    padding: 20px;
+    width: 5%;
+    border-radius: 50%;
+}
+
+.container {
+    width: 40vw;
+    overflow: hidden;
+}
+
+.containerPhoto {
+    width: 15vw;
+    height: 15vw;
+    justify-content: center;
+}
+
+.containerMenu {
+    width: 10vw;
+    justify-content: center;
+    background-color: #FFBF69;
+}
+
+
+
+.erreur {
+    color: #e11e1e;
+    text-align: center;
+    font-size: 18px;;
+    font-weight: bold;
+}
+
+.panier {
+    color: darkblue;
+    font-size: 16px;
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 250px;
+}
+
+
+form:not(#formCreate, #formDelete, #formLogin) {
+    width: 40%;
+    margin: 20px auto;
+    font-size: 20px !important;
+    display: flex;
+}
+
+#formCreate, #formDelete, #formLogin {
+    width: 40%;
+}
+
+#login {
+    background: green;
+    margin: auto;
+}
+
+
+
+input, button {
+    font-size: 22px;
+}
+
+form div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+
+img {
+    object-fit: cover;
+    width: 100%;
+}
+
+small {
+    padding-top: 7vw;
+    display: block;
+    font-size: 1.6vw;
+}
+
+
+#vlc {
+    width: 50%;
+    height: 13%;
+    margin-top: 2%;
+    margin-left: 22%;
+}
+
+.ctG {
+    float: left;
+    width: 20%;
+}
+
+.ctD {
+    float: right;
+    width: 80%;
+}
+
+.imageAddRemove {
+    width: 5%;
+
+}
+
+.supp {
+    position: relative;
+    width: 5%;
+    left: 75%;
+    bottom: 4%;
+}
+
+
+.panier {
+    color: darkblue;
+    font-size: 16px;
+    text-align: left;
+    padding: 40px;
+
+}
+
+.scroller {
+    width: 100%;
+    height: 80%;
+    overflow-y: scroll;
+
+}
+
+.signeInput {
+    position: absolute;
+    border: none;
+    width: 20px;
+    background: none;
+    cursor: pointer;
+}
+
+#submit, #delete {
+    padding: 10px;
+    background-color: #8c2146;
+    font-size: 20px;
+
+    color: white;
+    border: none;
+    margin: 20px 0 auto;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#submit, #Update {
+    padding: 20px;
+    background-color: green;
+    font-size: 20px;
+
+    color: white;
+    border: none;
+    margin: 20px 0 auto;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+}
+
+small {
+    padding-top: 7vw;
+    display: block;
+    font-size: 1.6vw;
+}
+
+.imgPanier {
+    transition: 0.5s ease-in-out;
+    display: flex;
+    width: 5vw;
+}
+
+.productPanier {
+    padding-left: 1vw;
+    display: flex;
+    width: 55vw;
+}
+
+.imgPanier:hover {
+    width: 10vw;
+}
